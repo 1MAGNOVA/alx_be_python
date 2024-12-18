@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env python3
 number1 = 10 
 number2 = 5
 sums = number1 + number2
