@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #Prompt User for Weather Input
-weather_condition = input ("What's the weather like today? (sunny/rainy/cold):")
+weather_condition = input("What's the weather like today? (sunny/rainy/cold):")
 
 print(f"What's the weather like today? (sunny/rainy/cold): {weather_condition}")
 #Based on the user’s input, your program will recommend different types of clothing
