@@ -5,8 +5,7 @@ num1 = float(input("Enter the first number:"))
 num2 = float(input("Enter the second number:"))
 
 #Ask for the type of operation they’d like to perform:
-operation = input("Choose the operation (+, -, *, /): ") print(operation)
-
+operation = input("Choose the operation (+, -, *, /): ")
 print(f"Choose the operation (+, -, *, /): {operations}")
 
 #match Case
