@@ -6,6 +6,7 @@ num2 = int(input("Enter the second number:"))
 
 #Ask for the type of operation they’d like to perform:
 operation = input("Choose the operation (+, -, *, /):")
+print(operation)
 
 #match Case
 operations:
