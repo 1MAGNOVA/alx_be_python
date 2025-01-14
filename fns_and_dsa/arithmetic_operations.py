@@ -15,10 +15,10 @@ def perform_operation(num1, num2, operation):
     - Result of the operation, or a string message for invalid operations or division by zero.
     """
     operations = {
-        'add': lambda x, y: x + y,
-        'subtract': lambda x, y: x - y,
-        'multiply': lambda x, y: x * y,
-        'divide': lambda x, y: "Error: Division by zero is not allowed." if y == 0 else x / y
+        'add': lambda num1, num2: num1 + num2,
+        'subtract': lambda num1, num2: num2 - num1,
+        'multiply': lambda num1, num2: num1 * num2,
+        'divide': lambda num1, num2: "Error: Division by zero is not allowed." if num1 == 0 else num2/ num1
     }
 
     func = operations.get(operation)
