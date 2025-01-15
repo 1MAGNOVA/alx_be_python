@@ -14,15 +14,18 @@ def perform_operation(num1, num2, operation):
     Returns:
     - Result of the operation, or a string message for invalid operations or division by zero.
     """
-    operations = {
-        'add': lambda num1, num2: num1 + num2,
-        'subtract': lambda num1, num2: num1 - num2,
-        'multiply': lambda num1, num2: num1 * num2,
-        'divide': lambda num1, num2: num1/ num2,
-        }
-
-    try:
-      if num1 > 0,
-          return operation.divide()
+    if operations == "add":
+        add = lambda num1, num2: num1 + num2
+        return add
+    elif operations == 'subtract': 
+        subtract = lambda num1, num2: num1 - num2
+        return subtract
+    elif operations == 'multiply': 
+        multiply = lambda num1, num2: num1 * num2
+        return multiply
+    else operation == 'divide': 
+        if num == 0:
+            return "error: invalid operation. number cannot be divided by zero"
         else:
-             return "Error: Invalid operation. Please choose add, subtract, multiply, or divide."
+            divide = lambda num1, num2: num1/ num2
+            return divide
