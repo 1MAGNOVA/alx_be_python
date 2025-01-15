@@ -24,7 +24,7 @@ def perform_operation(num1, num2, operation):
         multiply = lambda num1, num2: num1 * num2
         return multiply
     else operation == 'divide': 
-        if num == 0:
+        if num2 == 0:
             return "error: invalid operation. number cannot be divided by zero"
         else:
             divide = lambda num1, num2: num1/ num2
