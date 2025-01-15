@@ -18,11 +18,11 @@ def perform_operation(num1, num2, operation):
         'add': lambda num1, num2: num1 + num2,
         'subtract': lambda num1, num2: num1 - num2,
         'multiply': lambda num1, num2: num1 * num2,
-        'divide': lambda num1, num2: "Error: Division by zero is not allowed." if num2 == 0 else num1/ num2
-    }
+        'divide': lambda num1, num2: num1/ num2,
+        }
 
-    func = operations.get(operation)
-    if func:
-        return func(num1, num2)
-    else:
-        return "Error: Invalid operation. Please choose add, subtract, multiply, or divide."
+    try:
+      if num1 > 0,
+          return operation.divide()
+        else:
+             return "Error: Invalid operation. Please choose add, subtract, multiply, or divide."
