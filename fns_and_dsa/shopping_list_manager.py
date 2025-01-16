@@ -23,7 +23,9 @@ def display_menu():
 
 
 def shopping_list(choice):
-  while True:
+    shopping_list = [ ]
+
+    while True:
         display_menu()
         choice = input("Enter your choice: ")
 
