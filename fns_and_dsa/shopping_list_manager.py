@@ -14,4 +14,15 @@ The menu should offer options to add an item, remove an item, view the list, and
 def shopping_list(choice):
     for item in shopping_list:
         if choice == "1":
-            shopping_list[].append()
+            shopping_list[].append(item)
+        elif choice == "2":
+            shopping_list.remove(item)
+        elif choice == "3":
+            return shopping_list
+        elif choice == "4":
+            print("Goodbye!")
+        else:
+            print("Invalid choice. Please try again.")
+
+ choice = input("Enter your choice: ")
+ shopping_list(choice)
