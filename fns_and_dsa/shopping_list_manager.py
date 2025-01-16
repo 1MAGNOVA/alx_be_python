@@ -4,9 +4,6 @@ Create a Python script named shopping_list_manager.py that implements a simple i
 This task focuses on using lists to store and manipulate data dynamically.
 """
 
-#empty list
-shopping_list = [ ]
-
 """
 Use a loop to continuously display a menu with options to the user until they choose to exit.
 The menu should offer options to add an item, remove an item, view the list, and exit.
@@ -23,8 +20,8 @@ def display_menu():
 
 
 def shopping_list(choice):
-    shopping_list = [ ]
 
+    shopping_list = [ ]
     while True:
         display_menu()
         choice = input("Enter your choice: ")
