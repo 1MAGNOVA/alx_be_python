@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from time import datetime
+from datetime import *
 
 
 #display function display_current_datetime
