@@ -2,3 +2,11 @@ class BankAccount:
 
     def __init__(self,initial_balance=0.0):
         self.account_balance = initial_balance
+
+    def deposit(amount):
+        pass
+
+    def withdraw(amount):
+        pass
+    def display_balance():
+        pass
