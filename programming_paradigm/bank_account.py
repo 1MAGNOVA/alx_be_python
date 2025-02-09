@@ -4,7 +4,10 @@ class BankAccount:
         self.account_balance = initial_balance
 
     def deposit(amount):
-        pass
+        if amount >= 1
+            return account_balance + amount
+        else: 
+            return "account cannot be - "
 
     def withdraw(amount):
         pass
