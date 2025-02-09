@@ -4,7 +4,7 @@ class BankAccount:
         self.account_balance = initial_balance
 
     def deposit(self,amount):
-        if amount > 0
+        if amount > 0:
             self.account_balance =+ amount
         else: 
             return "account balance cannot be negative "
