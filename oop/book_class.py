@@ -1,1 +1,10 @@
- 
+class Book:
+    """Create a Python script named book_class.py. In this script, define a Book class that uses specific magic methods to enhance its functionality. 
+    This class will model a book with attributes for the title, author, and publication year."""
+    def __init__(self, title, author, year):
+        self.title = title
+        self.author = author
+        self.year = year
+
+    def __del__(self):
+        print(f"Deleting {self.title}")
