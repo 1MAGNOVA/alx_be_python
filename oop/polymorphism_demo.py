@@ -1,3 +1,6 @@
+import math
+
+
 """n this script, define a base class Shape with a method area() and derived classes Rectangle and Circle, each overriding the area() method to calculate their respective areas."""
 
 
