@@ -28,3 +28,6 @@ class Circle(Shape):
 
     def area(self):
         return math.pi * self.radius ** 2
+
+    def __str__(self):
+        return f"Circle: Radius={self.radius}"
