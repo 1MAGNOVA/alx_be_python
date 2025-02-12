@@ -6,8 +6,6 @@ import math
 
 class Shape:
     """base class defined"""
-
-"""Method: area(self), which simply raises a NotImplementedError, indicating that derived classes need to override this method."""
     def area(self):
         raise NotImplementedError("derived classes need to override this method")
 
